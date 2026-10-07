@@ -1,0 +1,6 @@
+agents:
+  <agent-id>:
+    owner: <role>
+    tool_bindings: [<tool>]
+    actions:
+      <tool>: {level: L1}   # L1 Inform, L2 Recommend, L3 Act with approval, L4 Act autonomously, Never

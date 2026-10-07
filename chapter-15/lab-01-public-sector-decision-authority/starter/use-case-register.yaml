@@ -1,0 +1,5 @@
+use_case_description: "Intake triage and case summary drafting for community grant applications (fictional agency)"
+accountable_officer: "Director, Grants Operations"
+impact_assessment_ref: "AIA-2026-014 (synthetic)"
+human_decision_point: "Caseworker or team leader approves or rejects; the agent never decides"
+transparency_statement_ref: "Agency AI transparency statement, section 4 (synthetic)"

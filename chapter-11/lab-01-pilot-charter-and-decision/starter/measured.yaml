@@ -1,0 +1,6 @@
+observed:
+  total_cycle_reduction_pct: 31
+  regulated_accuracy_pct: 96
+  unapproved_writes: 0
+readiness_gate_pct: 84
+hard_gate_failures: []

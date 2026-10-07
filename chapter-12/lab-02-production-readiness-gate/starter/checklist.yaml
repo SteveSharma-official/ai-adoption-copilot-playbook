@@ -1,0 +1,16 @@
+# Copilot Production Readiness Gate, worked subset (Appendix I has the full sixty items)
+items:
+  - {domain: identity, id: named_owner_and_sponsor, score: 2, evidence: evidence-pack/owner-and-sponsor.md}
+  - {domain: identity, id: scoped_agent_identity, score: 2, evidence: evidence-pack/agent-identity-export.json}
+  - {domain: identity, id: conditional_access_for_agents, score: 2, evidence: evidence-pack/conditional-access.md}
+  - {domain: data, id: exposure_report_signed, score: 2, evidence: evidence-pack/exposure-signoff.md}
+  - {domain: data, id: knowledge_sources_current_only, score: 2, evidence: evidence-pack/knowledge-sources.md}
+  - {domain: security, id: approval_gates_on_consequential_actions, score: 2, evidence: evidence-pack/authority-replay.md}
+  - {domain: security, id: threat_model_complete, score: 2, evidence: evidence-pack/threat-model.md}
+  - {domain: governance, id: registered_with_review_date, score: 2, evidence: evidence-pack/register-entry.md}
+  - {domain: governance, id: evaluation_passed, score: 2, evidence: evidence-pack/evaluation-scorecard.md}
+  - {domain: operations, id: stop_procedure_tested, score: 2, evidence: evidence-pack/stop-procedure-test.md}
+  - {domain: operations, id: support_route_defined, score: 2, evidence: evidence-pack/support-route.md}
+  - {domain: measurement, id: baseline_and_target, score: 2, evidence: evidence-pack/baseline.md}
+  - {domain: measurement, id: cost_monitoring, score: 1, evidence: evidence-pack/cost-note.md}
+  - {domain: operations, id: runbook_rehearsed, score: 1, evidence: evidence-pack/runbook-note.md}

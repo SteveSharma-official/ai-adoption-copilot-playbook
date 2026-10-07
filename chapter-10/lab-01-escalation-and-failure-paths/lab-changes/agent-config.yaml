@@ -1,0 +1,7 @@
+knowledge_sources: [hr-policy-current, hr-archive]   # 'more content, better answers'
+prefer_current: true
+escalate_on_conflict: true
+action_keywords: ["book leave", "submit my", "apply for me"]
+escalate_topics:
+  - {words: [termination], reason: "Employment decision: route to an HR business partner"}
+  - {words: [harassment], reason: "Sensitive matter: route to the specialist case team"}

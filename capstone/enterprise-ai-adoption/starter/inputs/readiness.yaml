@@ -1,0 +1,8 @@
+items:
+  - {domain: measurement, id: baseline_and_target, score: 2, evidence: evidence/stages/1-value/PASSED}
+  - {domain: data, id: exposure_report_signed, score: 2, evidence: evidence/stages/2-exposure/PASSED}
+  - {domain: identity, id: scoped_agent_identity, score: 2, evidence: evidence/stages/3-identity/PASSED}
+  - {domain: identity, id: named_owner_and_sponsor, score: 2, evidence: evidence/stages/3-identity/PASSED}
+  - {domain: security, id: approval_gates_on_consequential_actions, score: 2, evidence: evidence/stages/4-authority/PASSED}
+  - {domain: governance, id: evaluation_passed, score: 2, evidence: evidence/stages/5-evaluation/PASSED}
+  - {domain: operations, id: stop_procedure_tested, score: 2, evidence: inputs/stop-procedure-test.md}

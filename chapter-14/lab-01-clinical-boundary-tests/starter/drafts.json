@@ -1,0 +1,19 @@
+[
+  {
+    "draft_id": "D01",
+    "patient": "SYN-P01",
+    "citations": [
+      "09:10",
+      "09:25"
+    ],
+    "text": "Ward round summary: BP 142/88. Metoprolol 25 mg twice daily continued. Plan: repeat bloods tomorrow; physio review."
+  },
+  {
+    "draft_id": "D02",
+    "patient": "SYN-P02",
+    "citations": [
+      "11:00"
+    ],
+    "text": "Wound dressing changed; no signs of infection noted. Discharge planning discussed with family."
+  }
+]

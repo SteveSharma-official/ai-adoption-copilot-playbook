@@ -1,0 +1,16 @@
+workloads:
+  - name: Meeting recap
+    proposed_rung: Build
+  - name: AP supplier query agent
+    needs_custom_instructions_or_knowledge: true
+    needs_external_data: true
+    proposed_rung: Integrate
+    serves_unlicensed_users: false
+  - name: Contract clause extraction to tracker
+    needs_custom_instructions_or_knowledge: true
+    needs_system_actions: true
+    proposed_rung: Integrate
+  - name: Code review assistant with model choice
+    needs_custom_model: true
+    proposed_rung: Build
+    runs_autonomously: true

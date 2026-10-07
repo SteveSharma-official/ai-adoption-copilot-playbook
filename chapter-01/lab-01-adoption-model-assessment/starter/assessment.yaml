@@ -1,0 +1,13 @@
+organisation: Harbourline Group (fictional)
+decision_requested: one platform among several
+claimed_level: 2
+value_hypothesis_summary: "Accounts-payable supplier queries: median time to resolution falls by at least 25% with the bottleneck lookup step assisted."
+exposure_summary: "Finance and Customer Service sites assessed for the pilot wave; see Lab 6.1."
+agent_summary: "7 agents found; 2 unregistered; 1 owner has left (Lab 8.1)."
+cost_summary: "Copilot seats for 12 pilot users plus Copilot Studio consumption for one agent (to be modelled)."
+evidence:
+  value_hypothesis: evidence-map/value-hypothesis.md
+  baseline_signed: evidence-map/baseline-signoff.md
+  business_owner: evidence-map/business-owner.md
+  exposure_report_signed: ""
+  agents_have_identity_and_owner: ""

@@ -1,0 +1,2 @@
+activities:
+  approve_new_agent: {business_owner: R, platform_team: C, ciso: C, ai_council: A}

@@ -1,0 +1,7 @@
+question_id,question,answer_summary,cause,reviewer
+Q01,When is the next supplier payment run?,Cited current schedule,correct,AP lead
+Q02,What are our payment terms for small suppliers?,Quoted 2023 terms from archive,content_quality,AP lead
+Q03,Status of invoice 4471?,Could not see ERP,reachability,AP lead
+Q04,Summarise supplier disputes this quarter,Too vague to answer,prompting,AP lead
+Q05,Who approves invoices over 50k?,Cited delegation policy,correct,AP lead
+Q06,Summarise the board pack,Returned board paper extracts,permission,AP lead

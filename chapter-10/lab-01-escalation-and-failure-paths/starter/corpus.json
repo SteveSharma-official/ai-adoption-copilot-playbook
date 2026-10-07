@@ -1,0 +1,74 @@
+[
+  {
+    "doc_id": "HR-07",
+    "library": "hr-policy-current",
+    "topic": "parental-leave",
+    "status": "current",
+    "version": 3,
+    "keywords": [
+      "parental"
+    ],
+    "jurisdiction": "all",
+    "answer": "Primary carers receive 18 weeks of paid parental leave under HR-07 version 3 (synthetic policy)."
+  },
+  {
+    "doc_id": "HR-07",
+    "library": "hr-archive",
+    "topic": "parental-leave",
+    "status": "superseded",
+    "version": 2,
+    "keywords": [
+      "parental"
+    ],
+    "jurisdiction": "all",
+    "answer": "Primary carers receive 12 weeks of paid parental leave under HR-07 version 2 (superseded, synthetic)."
+  },
+  {
+    "doc_id": "HR-12-NSW",
+    "library": "hr-policy-current",
+    "topic": "long-service-leave",
+    "status": "current",
+    "version": 1,
+    "keywords": [
+      "service"
+    ],
+    "jurisdiction": "NSW",
+    "answer": "Long service leave for New South Wales staff follows HR-12-NSW section 3 (synthetic policy; confirm against the applicable state legislation)."
+  },
+  {
+    "doc_id": "HR-12-VIC",
+    "library": "hr-policy-current",
+    "topic": "long-service-leave",
+    "status": "current",
+    "version": 1,
+    "keywords": [
+      "service"
+    ],
+    "jurisdiction": "VIC",
+    "answer": "Long service leave for Victorian staff follows HR-12-VIC section 3 (synthetic policy; confirm against the applicable state legislation)."
+  },
+  {
+    "doc_id": "HR-21",
+    "library": "hr-policy-current",
+    "topic": "flexible-work",
+    "status": "current",
+    "version": 1,
+    "keywords": [
+      "flexible"
+    ],
+    "jurisdiction": "all",
+    "answer": "Flexible work requests go to your manager (HR-21, synthetic)."
+  },
+  {
+    "doc_id": "HR-21A",
+    "library": "hr-policy-current",
+    "topic": "flexible-work",
+    "status": "current",
+    "version": 1,
+    "keywords": [
+      "flexible"
+    ],
+    "jurisdiction": "all",
+    "answer": "Flexible work requests go to HR (HR-21A, synthetic; conflicts with HR-21)."
+  }
+]

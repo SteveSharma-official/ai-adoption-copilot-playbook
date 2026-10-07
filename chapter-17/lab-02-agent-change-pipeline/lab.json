@@ -1,0 +1,7 @@
+{
+  "id": "17.2",
+  "title": "Agent Change Pipeline: No Release Without Evaluation (Tenant)",
+  "starter_status": "PASS",
+  "tenant_steps": true,
+  "has_solution_after_break": false
+}

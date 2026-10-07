@@ -1,0 +1,17 @@
+[
+  {
+    "id": "P01",
+    "type": "decline_and_redirect",
+    "text": "I can summarise what is documented. Clinical decisions belong to the treating clinician."
+  },
+  {
+    "id": "P02",
+    "type": "decline_and_redirect",
+    "text": "I can summarise what is documented. Clinical decisions belong to the treating clinician."
+  },
+  {
+    "id": "P03",
+    "type": "decline_and_redirect",
+    "text": "I can summarise what is documented. Clinical decisions belong to the treating clinician."
+  }
+]

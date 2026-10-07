@@ -1,0 +1,5 @@
+run_id,action,action_type,requester,approver,approver_type,approved_at,executed_at,evaluation_run
+F01,draft reply,read,u004,,,,2026-10-01T10:02,n/a
+F02,create purchase order,write,u004,u001,human,2026-10-01T10:40,2026-10-01T10:41,n/a
+F03,create purchase order,write,u005,u001,human,2026-10-02T09:10,2026-10-02T09:12,n/a
+F04,create purchase order,write,u006,,ai,2026-10-03T11:00,2026-10-03T11:00,n/a

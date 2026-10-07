@@ -1,0 +1,17 @@
+# Copilot Agent Authority Matrix (Appendix H) expressed as policy
+agents:
+  ap-query-agent:
+    owner: Head of Accounts Payable
+    tool_bindings: [kb.search, erp.invoice_status, ap.draft_reply, erp.purchase_order_create]
+    actions:
+      kb.search:              {level: L1}
+      erp.invoice_status:     {level: L1}
+      ap.draft_reply:         {level: L2}
+      erp.purchase_order_create: {level: L3, limits: {amount_aud: {max: 10000}}}
+      erp.vendor_create:      {level: L4, reversible: true}   # 'reduce friction for new suppliers'
+      erp.vendor_bank_update: {level: Never}
+  ticket-triage-agent:
+    owner: Service Desk Manager
+    tool_bindings: [itsm.ticket_tag]
+    actions:
+      itsm.ticket_tag: {level: L4, reversible: true, limits: {category: {allowed: [access, hardware, software, other]}}}

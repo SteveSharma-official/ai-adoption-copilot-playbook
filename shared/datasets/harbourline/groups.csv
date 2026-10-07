@@ -1,0 +1,11 @@
+group_id,name,kind
+grp-all-staff,All Staff,dynamic
+grp-finance,Finance,assigned
+grp-hr,HR,assigned
+grp-legal,Legal,assigned
+grp-operations,Operations,assigned
+grp-customer-service,Customer Service,assigned
+grp-executive,Executive,assigned
+grp-it,IT,assigned
+grp-project-falcon,Project Falcon (2019 restructure),assigned
+grp-board-office,Board Office,assigned

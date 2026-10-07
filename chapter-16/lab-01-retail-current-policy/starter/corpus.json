@@ -1,0 +1,42 @@
+[
+  {
+    "doc_id": "RET-04",
+    "library": "store-policy-current",
+    "topic": "returns",
+    "status": "current",
+    "version": 4,
+    "keywords": [
+      "return",
+      "refund",
+      "exchange"
+    ],
+    "jurisdiction": "all",
+    "answer": "Change-of-mind returns are accepted within 30 days with proof of purchase (store policy RET-04 v4, synthetic)."
+  },
+  {
+    "doc_id": "RET-04",
+    "library": "store-policy-archive",
+    "topic": "returns",
+    "status": "superseded",
+    "version": 3,
+    "keywords": [
+      "return",
+      "refund"
+    ],
+    "jurisdiction": "all",
+    "answer": "Change-of-mind returns are accepted within 14 days (RET-04 v3, superseded, synthetic)."
+  },
+  {
+    "doc_id": "LOY-02",
+    "library": "store-policy-current",
+    "topic": "loyalty",
+    "status": "current",
+    "version": 2,
+    "keywords": [
+      "points",
+      "loyalty"
+    ],
+    "jurisdiction": "all",
+    "answer": "Loyalty points post within 48 hours (LOY-02 v2, synthetic)."
+  }
+]

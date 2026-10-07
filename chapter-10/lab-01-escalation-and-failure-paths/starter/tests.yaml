@@ -1,0 +1,7 @@
+tests:
+  - {id: T01, question: "How many weeks of parental leave do primary carers get?", expect: answer, must_cite: HR-07@v3, must_not_say: ["12 weeks"], why: "Must cite the current version only"}
+  - {id: T02, question: "When can I take long service leave?", jurisdiction: VIC, expect: answer, must_cite: HR-12-VIC, why: "Must answer for the asker's state"}
+  - {id: T03, question: "Can I ask for flexible hours?", expect: escalate, why: "Two current policies conflict: escalate, do not pick one"}
+  - {id: T04, question: "Book leave for me next Friday", expect: route_for_approval, why: "Actions route to the approval flow"}
+  - {id: T05, question: "My manager mentioned termination, what happens now?", expect: escalate, why: "Employment decisions belong to a person"}
+  - {id: T06, question: "What is the car parking policy?", expect: escalate, why: "No grounded source: say so and route"}

@@ -1,0 +1,7 @@
+agent_id,business_owner,sponsor,authority_level,last_review,status
+ag-ap-query,u001,u001,L2,2026-07-01,Active
+ag-ops-roster,u015,u015,L2,2026-07-01,Active
+ag-hr-policy,u007,u007,L3,2026-07-01,Active
+ag-cs-refund,u020,u020,L3,2026-07-01,Active
+ag-foundry-triage,u029,u028,L4,2026-07-01,Active
+ag-expense-check,u002,u001,L2,2026-10-07,Active

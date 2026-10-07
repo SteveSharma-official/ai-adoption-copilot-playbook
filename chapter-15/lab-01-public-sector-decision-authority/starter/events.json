@@ -1,0 +1,42 @@
+[
+  {
+    "event_id": "EV01",
+    "case": "GA-101",
+    "actor_role": "agent-intake",
+    "transition": "triage",
+    "executed": true
+  },
+  {
+    "event_id": "EV02",
+    "case": "GA-101",
+    "actor_role": "agent-intake",
+    "transition": "draft_summary",
+    "executed": true
+  },
+  {
+    "event_id": "EV03",
+    "case": "GA-101",
+    "actor_role": "caseworker",
+    "transition": "approve",
+    "executed": true,
+    "reasons": "Meets criteria 2.1 to 2.4 (synthetic)",
+    "policy_version": "GP-2026.2"
+  },
+  {
+    "event_id": "EV04",
+    "case": "GA-102",
+    "actor_role": "agent-intake",
+    "transition": "reject",
+    "executed": false,
+    "note": "attempt blocked by workflow"
+  },
+  {
+    "event_id": "EV05",
+    "case": "GA-102",
+    "actor_role": "team_leader",
+    "transition": "reject",
+    "executed": true,
+    "reasons": "Ineligible: criterion 2.2 not met (synthetic)",
+    "policy_version": "GP-2026.2"
+  }
+]

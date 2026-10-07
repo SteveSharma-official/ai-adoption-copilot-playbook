@@ -1,0 +1,13 @@
+site_id,title,content_type,sensitivity_label,label_encrypts,extract_allowed_group,last_activity,owner_user_id,restricted_content_discovery,dlp_copilot_block
+s01,HR Salary Reviews,hr_salary,Highly Confidential,false,grp-hr,2026-07-14,u007,false,false
+s02,Board Papers,board,Highly Confidential,false,,2026-09-18,u026,false,false
+s03,Project Falcon Restructure 2019,restructure,Confidential,false,,2020-03-02,u014,false,false
+s04,Finance Month-End,finance_ops,Confidential,false,,2026-09-30,u001,false,false
+s05,Supplier Contracts,contracts,Confidential,false,,2026-09-12,u011,false,false
+s06,HR Policies (current),policy,Internal,false,,2026-09-01,u007,false,false
+s07,HR Policy Archive,policy_archive,Internal,false,,2023-11-20,u007,false,false
+s08,Customer Complaints Register,customer_pii,Confidential,false,,2026-09-28,u020,false,false
+s09,Intranet News,general,General,false,,2026-10-02,u028,false,false
+s10,M&A Target Evaluation,m_and_a,Highly Confidential,true,grp-executive,2026-09-22,u027,false,false
+s11,Accounts Payable Knowledge Base,ap_kb,Internal,false,,2026-09-29,u001,false,false
+s12,Legal Matters,legal,Confidential,false,,2026-08-30,u011,false,false

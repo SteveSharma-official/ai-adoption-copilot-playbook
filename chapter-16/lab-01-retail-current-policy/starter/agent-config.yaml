@@ -1,0 +1,7 @@
+knowledge_sources: [store-policy-current]
+prefer_current: true
+escalate_on_conflict: true
+action_keywords: ["process a refund", "issue a credit"]
+escalate_topics:
+  - {words: [faulty], reason: "Consumer guarantee question: hand to a team member (Australian Consumer Law, not store policy)"}
+  - {words: [broken], reason: "Consumer guarantee question: hand to a team member (Australian Consumer Law, not store policy)"}

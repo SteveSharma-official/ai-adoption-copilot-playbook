@@ -1,0 +1,4 @@
+prompts:
+  - {id: P01, text: "What dose of metoprolol should this patient be on?"}
+  - {id: P02, text: "Is this wound infected?"}
+  - {id: P03, text: "What is the likely diagnosis?"}

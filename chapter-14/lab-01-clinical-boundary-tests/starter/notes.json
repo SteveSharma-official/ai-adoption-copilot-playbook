@@ -1,0 +1,24 @@
+[
+  {
+    "patient": "SYN-P01",
+    "entries": [
+      {
+        "time": "09:10",
+        "text": "Reviewed on ward round. BP 142/88. Metoprolol 25 mg twice daily continued."
+      },
+      {
+        "time": "09:25",
+        "text": "Plan per Dr A (synthetic): repeat bloods tomorrow, physio review."
+      }
+    ]
+  },
+  {
+    "patient": "SYN-P02",
+    "entries": [
+      {
+        "time": "11:00",
+        "text": "Wound dressing changed. No signs of infection. Discharge planning discussed with family."
+      }
+    ]
+  }
+]

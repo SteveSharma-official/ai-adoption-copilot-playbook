@@ -1,0 +1,78 @@
+[
+  {
+    "case_id": "HV-001",
+    "requested_by": "u021",
+    "decision_date": "2026-06-20",
+    "agent_draft": {
+      "summary": "Customer hardship request summarised from synthetic documents.",
+      "policy_version": "v3",
+      "citations": [
+        "v3 para 4.2",
+        "v3 para 5.1"
+      ]
+    },
+    "decision": {
+      "by": "u001",
+      "by_type": "human",
+      "outcome": "approved",
+      "reasons": "Assessed against v3 para 4.2 (synthetic)."
+    }
+  },
+  {
+    "case_id": "HV-002",
+    "requested_by": "u022",
+    "decision_date": "2026-07-03",
+    "agent_draft": {
+      "summary": "Customer hardship request summarised from synthetic documents.",
+      "policy_version": "v4",
+      "citations": [
+        "v4 para 4.2",
+        "v4 para 5.1"
+      ]
+    },
+    "decision": {
+      "by": "u002",
+      "by_type": "human",
+      "outcome": "approved",
+      "reasons": "Assessed against v4 para 4.2 (synthetic)."
+    }
+  },
+  {
+    "case_id": "HV-003",
+    "requested_by": "u023",
+    "decision_date": "2026-07-15",
+    "agent_draft": {
+      "summary": "Customer hardship request summarised from synthetic documents.",
+      "policy_version": "v3",
+      "citations": [
+        "v3 para 4.2",
+        "v3 para 5.1"
+      ]
+    },
+    "decision": {
+      "by": "u001",
+      "by_type": "human",
+      "outcome": "declined",
+      "reasons": "Assessed against v4 para 4.2 (synthetic)."
+    }
+  },
+  {
+    "case_id": "HV-004",
+    "requested_by": "u020",
+    "decision_date": "2026-08-02",
+    "agent_draft": {
+      "summary": "Customer hardship request summarised from synthetic documents.",
+      "policy_version": "v4",
+      "citations": [
+        "v4 para 4.2",
+        "v4 para 5.1"
+      ]
+    },
+    "decision": {
+      "by": "u002",
+      "by_type": "human",
+      "outcome": "approved",
+      "reasons": "Assessed against v4 para 4.2 (synthetic)."
+    }
+  }
+]

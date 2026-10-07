@@ -1,0 +1,13 @@
+volume_anomaly:
+  multiplier: 50   # 'too many alerts'
+  baseline_per_hour: {ag-ap-query: 3, ag-cs-refund: 1}
+label_access:
+  allowed:
+    ag-ap-query: [Internal, General]
+    ag-cs-refund: [Confidential, Internal]
+out_of_matrix:
+  ag-ap-query: [erp.vendor_create, erp.vendor_bank_update]
+ground_truth:
+  - [volume_anomaly, ag-cs-refund, "2026-10-05T14"]
+  - [label_access, ag-ap-query, "2026-10-05T15"]
+  - [out_of_matrix, ag-ap-query, "2026-10-05T16"]

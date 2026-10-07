@@ -1,0 +1,8 @@
+{
+  "agent": "ag-ap-query",
+  "identity": "Entra Agent ID (synthetic export)",
+  "sponsor": "u001",
+  "scopes": [
+    "Sites.Selected:read"
+  ]
+}

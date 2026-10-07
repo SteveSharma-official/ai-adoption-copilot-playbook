@@ -1,0 +1,165 @@
+[
+  {
+    "agent_id": "ag-ap-query",
+    "name": "AP Supplier Query Assistant",
+    "platform": "Copilot Studio",
+    "environment": "prod",
+    "created_by": "u001",
+    "owner": "u001",
+    "sponsor": "u001",
+    "auth_mode": "end_user",
+    "audience_users": 9,
+    "published": true,
+    "last_run": "2026-10-06",
+    "registered": true,
+    "rung": 2,
+    "tools": [
+      {
+        "name": "kb.search",
+        "action": "read",
+        "system": "SharePoint"
+      },
+      {
+        "name": "erp.invoice_status",
+        "action": "read",
+        "system": "ERP"
+      }
+    ]
+  },
+  {
+    "agent_id": "ag-expense-check",
+    "name": "Expense Policy Checker",
+    "platform": "Copilot Studio",
+    "environment": "prod",
+    "created_by": "u003",
+    "owner": "u003",
+    "sponsor": "",
+    "auth_mode": "maker",
+    "audience_users": 38,
+    "published": true,
+    "last_run": "2026-10-05",
+    "registered": false,
+    "rung": 2,
+    "tools": [
+      {
+        "name": "erp.expense_update",
+        "action": "write",
+        "system": "ERP"
+      }
+    ]
+  },
+  {
+    "agent_id": "ag-ops-roster",
+    "name": "Ops Roster Helper",
+    "platform": "Copilot Studio",
+    "environment": "prod",
+    "created_by": "u014",
+    "owner": "u014",
+    "sponsor": "u015",
+    "auth_mode": "shared_service_account",
+    "audience_users": 6,
+    "published": true,
+    "last_run": "2026-09-30",
+    "registered": true,
+    "rung": 2,
+    "tools": [
+      {
+        "name": "roster.read",
+        "action": "read",
+        "system": "Rostering"
+      },
+      {
+        "name": "roster.update",
+        "action": "write",
+        "system": "Rostering"
+      }
+    ]
+  },
+  {
+    "agent_id": "ag-hr-policy",
+    "name": "HR Policy Answers",
+    "platform": "Copilot Studio",
+    "environment": "prod",
+    "created_by": "u008",
+    "owner": "u007",
+    "sponsor": "u007",
+    "auth_mode": "end_user",
+    "audience_users": 40,
+    "published": true,
+    "last_run": "2026-10-06",
+    "registered": true,
+    "rung": 3,
+    "tools": [
+      {
+        "name": "kb.search",
+        "action": "read",
+        "system": "SharePoint"
+      }
+    ]
+  },
+  {
+    "agent_id": "ag-cs-refund",
+    "name": "Refund Drafting Agent",
+    "platform": "Copilot Studio",
+    "environment": "prod",
+    "created_by": "u021",
+    "owner": "u020",
+    "sponsor": "u020",
+    "auth_mode": "agent_identity",
+    "audience_users": 6,
+    "published": true,
+    "last_run": "2026-10-06",
+    "registered": true,
+    "rung": 3,
+    "tools": [
+      {
+        "name": "crm.case_read",
+        "action": "read",
+        "system": "CRM"
+      },
+      {
+        "name": "pos.refund_request",
+        "action": "write",
+        "system": "POS"
+      }
+    ]
+  },
+  {
+    "agent_id": "ag-personal-notes",
+    "name": "My meeting notes helper",
+    "platform": "Agent Builder",
+    "environment": "personal",
+    "created_by": "u022",
+    "owner": "u022",
+    "sponsor": "",
+    "auth_mode": "end_user",
+    "audience_users": 1,
+    "published": false,
+    "last_run": "2026-10-03",
+    "registered": false,
+    "rung": 1,
+    "tools": []
+  },
+  {
+    "agent_id": "ag-foundry-triage",
+    "name": "Ticket Triage (Foundry)",
+    "platform": "Microsoft Foundry",
+    "environment": "prod",
+    "created_by": "u029",
+    "owner": "u029",
+    "sponsor": "u028",
+    "auth_mode": "agent_identity",
+    "audience_users": 0,
+    "published": true,
+    "last_run": "2026-10-06",
+    "registered": true,
+    "rung": 4,
+    "tools": [
+      {
+        "name": "itsm.ticket_tag",
+        "action": "write",
+        "system": "ITSM"
+      }
+    ]
+  }
+]

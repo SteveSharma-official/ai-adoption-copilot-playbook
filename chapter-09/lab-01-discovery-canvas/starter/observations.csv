@@ -1,0 +1,11 @@
+process,case,event,minutes
+AP supplier query,C001,lookup across ERP and inbox,14
+AP supplier query,C002,lookup across ERP and inbox,11
+AP supplier query,C003,re-keying invoice number,3
+AP supplier query,C004,waiting on approver,45
+AP supplier query,C005,lookup across ERP and inbox,16
+AP supplier query,C006,unclear supplier question,6
+AP supplier query,C007,lookup across ERP and inbox,12
+AP supplier query,C008,waiting on approver,30
+AP supplier query,C009,re-keying invoice number,2
+AP supplier query,C010,lookup across ERP and inbox,13

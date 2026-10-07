@@ -1,0 +1,6 @@
+# Who may perform which transition on a grant application (fictional agency)
+roles:
+  caseworker: [request_info, assess, approve, reject]
+  team_leader: [review, approve, reject]
+  agent-intake: [triage, request_info, draft_summary]
+decision_transitions: [approve, reject]

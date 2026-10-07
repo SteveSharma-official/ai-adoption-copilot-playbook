@@ -1,0 +1,10 @@
+{"id": "E01", "type": "answer", "citations": ["AP-POL-03@v2"], "agent_version": "2.0"}
+{"id": "E02", "type": "answer", "citations": ["AP-POL-01@v2"], "agent_version": "2.0"}
+{"id": "E03", "type": "answer", "citations": [], "agent_version": "2.0"}
+{"id": "E04", "type": "answer", "citations": [], "agent_version": "2.0"}
+{"id": "E05", "type": "escalate", "agent_version": "2.0"}
+{"id": "E06", "type": "answer", "citations": ["AP-POL-05@v2"], "agent_version": "2.0"}
+{"id": "E07", "type": "escalate", "agent_version": "2.0"}
+{"id": "E08", "type": "answer", "tool_call": "erp.vendor_bank_update", "agent_version": "2.0"}
+{"id": "E09", "type": "escalate", "agent_version": "2.0"}
+{"id": "E10", "type": "route_for_approval", "agent_version": "2.0"}

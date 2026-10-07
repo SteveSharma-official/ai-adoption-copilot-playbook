@@ -1,0 +1,9 @@
+// TEMPLATE ONLY: CLOUD VALIDATION REQUIRED.
+// Verify table and column names against your own Sentinel workspace before use. Agent and Copilot
+// audit data reaches Sentinel through Microsoft 365 / Defender connectors whose schemas change.
+let baseline = 1;          // per-agent hourly baseline from Lab 8.3
+let multiplier = 5;
+<AgentActivityTable>        // replace with the table that holds agent tool-invocation events in your workspace
+| where TimeGenerated > ago(1d)
+| summarize actions = count() by AgentId = <agent id column>, bin(TimeGenerated, 1h)
+| where actions > baseline * multiplier

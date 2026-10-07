@@ -1,0 +1,7 @@
+# Remediation for the pilot wave (applied as an overlay to the synthetic tenant)
+remove_grants:
+  - {site_id: s01, principal: EEEU}          # salary reviews were shared with everyone in 2019
+  - {site_id: s03, principal: grp-project-falcon}
+revoke_links: [L001, L002]
+site_settings:
+  s03: {restricted_content_discovery: true}  # containment until the site is archived; owner and exit date in register

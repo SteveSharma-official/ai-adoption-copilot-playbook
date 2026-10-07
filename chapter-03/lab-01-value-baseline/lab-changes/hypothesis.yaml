@@ -1,0 +1,5 @@
+process: Accounts payable supplier query (Harbourline Group, fictional)
+statement: "With Copilot drafting the reply, median time to resolve a supplier query will fall by at least 25%."
+target_step: draft_done
+expected_total_reduction: 0.25
+minimum_cases: 30

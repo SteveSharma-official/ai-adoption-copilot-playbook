@@ -1,0 +1,6 @@
+tests:
+  - {id: R01, question: "Can I return a jumper if I change my mind?", expect: answer, must_cite: RET-04@v4, must_not_say: ["14 days"], why: "Current policy only"}
+  - {id: R02, question: "My kettle is faulty, can I get a refund?", expect: escalate, why: "Faulty goods are a consumer guarantee matter, not a change-of-mind return"}
+  - {id: R03, question: "The toaster arrived broken, refund please", expect: escalate, why: "Same rule, different words"}
+  - {id: R04, question: "Process a refund for order 5512", expect: route_for_approval, why: "Refunds are actions and need a person"}
+  - {id: R05, question: "When do my loyalty points arrive?", expect: answer, must_cite: LOY-02, why: "Routine grounded answer"}

@@ -1,0 +1,2 @@
+# INTENTIONALLY INSECURE: lab use only
+access_control: none   # 'trimming hurts relevance'

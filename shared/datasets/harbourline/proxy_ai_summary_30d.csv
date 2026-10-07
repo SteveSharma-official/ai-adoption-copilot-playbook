@@ -1,0 +1,32 @@
+department,domain,category,requests_30d,upload_bytes_30d
+Finance,m365.cloud.microsoft,ai_assistant,180,918000
+Finance,copilotstudio.microsoft.com,ai_builder,280,7000000
+Finance,ai.azure.com,ai_platform,90,2619000
+Finance,chat.example-ai.test,ai_assistant,50,3685000
+Finance,news.example.test,news,130,5512000
+Customer Service,m365.cloud.microsoft,ai_assistant,70,4095000
+Customer Service,copilotstudio.microsoft.com,ai_builder,290,957000
+Customer Service,ai.azure.com,ai_platform,250,9450000
+Customer Service,chat.example-ai.test,ai_assistant,140,3458000
+Customer Service,news.example.test,news,30,606000
+Operations,m365.cloud.microsoft,ai_assistant,50,2855000
+Operations,copilotstudio.microsoft.com,ai_builder,180,12204000
+Operations,ai.azure.com,ai_platform,250,12750000
+Operations,chat.example-ai.test,ai_assistant,290,13862000
+Operations,news.example.test,news,220,1848000
+IT,m365.cloud.microsoft,ai_assistant,310,2170000
+IT,copilotstudio.microsoft.com,ai_builder,210,17346000
+IT,ai.azure.com,ai_platform,370,20165000
+IT,chat.example-ai.test,ai_assistant,380,2774000
+IT,code.example-assist.test,ai_coding,200,2740000
+IT,news.example.test,news,30,264000
+Legal,m365.cloud.microsoft,ai_assistant,70,4802000
+Legal,copilotstudio.microsoft.com,ai_builder,180,3780000
+Legal,ai.azure.com,ai_platform,160,13040000
+Legal,chat.example-ai.test,ai_assistant,100,910000
+Legal,news.example.test,news,120,9612000
+HR,m365.cloud.microsoft,ai_assistant,60,132000
+HR,copilotstudio.microsoft.com,ai_builder,330,14619000
+HR,ai.azure.com,ai_platform,10,77000
+HR,chat.example-ai.test,ai_assistant,330,28941000
+HR,news.example.test,news,60,288000

@@ -1,0 +1,6 @@
+incident_id,type,summary
+I-01,wrong_answer,Quoted old payment terms
+I-02,expired_credential,Connector token expired
+I-03,unsafe_action,Refund drafted for wrong customer
+I-04,platform_outage,Service degraded in region
+I-05,stale_knowledge,Archive library still indexed

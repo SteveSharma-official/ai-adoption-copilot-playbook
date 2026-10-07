@@ -1,0 +1,21 @@
+lab: "5.1"
+title: "Harbourline AP supplier query agent: reference architecture"
+components:
+  - {id: erp-write, label: "ERP supplier master (write)", type: system, zone: line-of-business, writes_system_of_record: true}
+  - {id: user, label: "AP staff (Entra user)", type: actor, zone: tenant}
+  - {id: m365-copilot, label: "Microsoft 365 Copilot", type: assistant, zone: microsoft-service}
+  - {id: ap-agent, label: "AP Supplier Query agent (Copilot Studio)", type: agent, zone: microsoft-service, identity: end_user, owner: u001, sponsor: u001}
+  - {id: kb, label: "AP knowledge base (SharePoint, labelled)", type: data, zone: tenant}
+  - {id: erp-read, label: "ERP invoice status API (read)", type: system, zone: line-of-business}
+  - {id: entra, label: "Entra (identity, Conditional Access)", type: control, zone: tenant, domains: [identity]}
+  - {id: purview, label: "Purview (labels, DLP, audit)", type: control, zone: tenant, domains: [data]}
+  - {id: defender, label: "Defender (runtime protection)", type: control, zone: tenant, domains: [threat]}
+  - {id: sentinel, label: "Sentinel (monitoring)", type: control, zone: tenant, domains: [monitoring]}
+  - {id: agent365, label: "Agent 365 (registry, governance)", type: control, zone: tenant, domains: [inventory]}
+flows:
+  - {from: ap-agent, to: erp-write, action: write}
+  - {from: user, to: ap-agent, action: ask, controls: [conditional-access]}
+  - {from: ap-agent, to: kb, action: read, controls: [user-permissions, sensitivity-labels]}
+  - {from: ap-agent, to: erp-read, action: read, controls: [connector-data-policy, end-user-auth]}
+  - {from: ap-agent, to: sentinel, action: telemetry, controls: [audit]}
+  - {from: agent365, to: ap-agent, action: govern, kind: oversight, controls: [registry]}

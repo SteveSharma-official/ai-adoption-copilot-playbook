@@ -1,0 +1,22 @@
+lab: "16.2"
+title: Maintenance knowledge agent beside an OT network (fictional manufacturer)
+components:
+  - {id: technician, label: "Maintenance technician", type: actor, zone: tenant}
+  - {id: maint-agent, label: "Maintenance knowledge agent (Copilot Studio)", type: agent, zone: microsoft-service, identity: agent_identity, owner: u016, sponsor: u015}
+  - {id: manuals, label: "Equipment manuals and SOPs (SharePoint)", type: data, zone: tenant}
+  - {id: historian-replica, label: "Historian replica (read-only, IT side)", type: data, zone: industrial-dmz}
+  - {id: historian, label: "Process historian", type: system, zone: ot}
+  - {id: plc, label: "Line 3 PLC", type: system, zone: ot}
+  - {id: entra, label: "Entra", type: control, zone: tenant, domains: [identity]}
+  - {id: purview, label: "Purview", type: control, zone: tenant, domains: [data]}
+  - {id: defender, label: "Defender", type: control, zone: tenant, domains: [threat]}
+  - {id: sentinel, label: "Sentinel", type: control, zone: tenant, domains: [monitoring]}
+  - {id: agent365, label: "Agent 365", type: control, zone: tenant, domains: [inventory]}
+flows:
+  - {from: technician, to: maint-agent, action: ask, controls: [conditional-access]}
+  - {from: maint-agent, to: manuals, action: read, controls: [user-permissions]}
+  - {from: maint-agent, to: historian-replica, action: read, controls: [read-only-connector, ip-allow-list]}
+  - {from: historian, to: historian-replica, action: replicate, controls: [one-way-transfer]}
+  - {from: historian, to: plc, action: poll, controls: [ot-firewall]}
+  - {from: maint-agent, to: plc, action: write, controls: [vendor-gateway]}   # 'let it reset the alarm'
+  - {from: agent365, to: maint-agent, action: govern, kind: oversight, controls: [registry]}

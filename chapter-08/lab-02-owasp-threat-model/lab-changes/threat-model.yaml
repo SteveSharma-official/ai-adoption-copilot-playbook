@@ -1,0 +1,11 @@
+system: AP Supplier Query agent (Harbourline Group, fictional)
+threats:
+  - {id: ASI02, controls: [authority matrix gateway, parameter limits], evidence: [Lab 7.1 replay evidence], owner: Platform team}
+  - {id: ASI03, controls: [end-user credentials, maker credentials blocked], evidence: [Lab 6.3 audit], owner: Identity team}
+  - {id: ASI04, controls: [approved connector list, data policy], evidence: [connector register], owner: Platform team}
+  - {id: ASI05, not_applicable: true, justification: "Agent has no code execution tools; recheck if tools change."}
+  - {id: ASI06, controls: [current-policy library only, grounding source register], evidence: [Lab 10.1 tests], owner: AP content owner}
+  - {id: ASI07, not_applicable: true, justification: "Single agent; no agent-to-agent calls."}
+  - {id: ASI08, controls: [connector throttling, Sentinel volume rule, stop procedure], evidence: [Lab 8.3 results, stop-procedure test record], owner: SecOps}
+  - {id: ASI09, controls: [evidence-first approval design, reviewer training], evidence: [approval logs], owner: AP manager}
+  - {id: ASI10, controls: [agent register, sponsor workflow, quarterly review], evidence: [Lab 8.1 register], owner: Platform team}

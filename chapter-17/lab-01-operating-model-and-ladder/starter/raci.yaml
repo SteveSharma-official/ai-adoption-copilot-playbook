@@ -1,0 +1,5 @@
+activities:
+  approve_new_agent:      {business_owner: R, platform_team: C, ciso: C, ai_council: A}
+  run_stop_procedure:     {service_desk: R, platform_team: A, business_owner: I}
+  quarterly_review:       {business_owner: R, ai_council: A, platform_team: C}
+  update_knowledge:       {business_owner: A, content_owner: R, platform_team: I}

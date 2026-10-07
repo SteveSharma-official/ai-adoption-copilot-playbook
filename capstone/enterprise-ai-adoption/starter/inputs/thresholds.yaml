@@ -1,0 +1,1 @@
+pass_rate: {core: 1.0, edge: 0.5, adversarial: 1.0, regulated: 1.0, operational: 1.0}

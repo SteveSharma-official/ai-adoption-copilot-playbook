@@ -1,0 +1,4 @@
+policy: Hardship variation policy (Harbourline Finance, fictional lender)
+versions:
+  - {version: v3, effective_from: 2026-01-01}
+  - {version: v4, effective_from: 2026-07-01}

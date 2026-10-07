@@ -1,0 +1,23 @@
+workloads:
+  - name: Supplier query answers for AP staff
+    data_boundary: m365
+    action_autonomy: assists
+    integration_depth: graph
+    proposed_platform: Copilot Studio
+    approved_exception: "Needs read-only ERP invoice status through a connector; reviewed by architecture board 2026-09-02."
+  - name: Meeting recap and email drafting
+    data_boundary: m365
+    action_autonomy: assists
+    integration_depth: graph
+    proposed_platform: Microsoft 365 Copilot
+  - name: Customer telemetry sentiment analysis
+    data_boundary: external
+    data_volume: large
+    action_autonomy: assists
+    integration_depth: custom_model
+    proposed_platform: Microsoft 365 Copilot
+  - name: Refund request drafting
+    data_boundary: external
+    action_autonomy: acts_with_approval
+    integration_depth: connectors
+    proposed_platform: Copilot Studio

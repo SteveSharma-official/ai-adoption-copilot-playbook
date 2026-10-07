@@ -1,0 +1,27 @@
+canvases:
+  - name: AP supplier query assistant
+    selected: true
+    scores:
+      owner_with_budget:            {score: 2, evidence: "Head of AP named; cost centre FIN-AP-01"}
+      process_documented:           {score: 2, evidence: "observations.csv: 40 cases shadowed"}
+      data_in_boundary_labelled:    {score: 2, evidence: "Lab 6.1 exposure report, Finance sites"}
+      human_authority_clear:        {score: 2, evidence: "Authority matrix draft (Lab 7.1)"}
+      value_hypothesis_falsifiable: {score: 2, evidence: "Lab 3.1 hypothesis.yaml"}
+      risk_treatable_90d:           {score: 2}   # 'it will be fine'
+      natural_platform_fit:         {score: 2, evidence: "Lab 4.1: Integrate rung"}
+      volume_justifies:             {score: 2, evidence: "~600 supplier queries a month (synthetic)"}
+      baseline_within_14d:          {score: 1}
+      kill_criteria_explicit:       {score: 1}
+  - name: Board pack summariser
+    selected: false
+    scores:
+      owner_with_budget:            {score: 1}
+      process_documented:           {score: 0}
+      data_in_boundary_labelled:    {score: 0}
+      human_authority_clear:        {score: 1}
+      value_hypothesis_falsifiable: {score: 0}
+      risk_treatable_90d:           {score: 0}
+      natural_platform_fit:         {score: 2, evidence: "Microsoft 365 Copilot core capability"}
+      volume_justifies:             {score: 0}
+      baseline_within_14d:          {score: 0}
+      kill_criteria_explicit:       {score: 0}

@@ -1,0 +1,14 @@
+metrics:
+  - {name: "Median supplier-query cycle time reduction (%)", dimension: Value, evidence: inputs/value.json, path: reduction_pct}
+  - {name: "Weekly active Copilot users in pilot (%)", dimension: Adoption, evidence: inputs/adoption.json, path: weekly_active_pct}
+  - {name: "Crown-jewel sites exposed", dimension: Risk, evidence: inputs/exposure.json, path: crown_jewels_exposed}
+  - {name: "Agents with owner and sponsor (%)", dimension: Operations, evidence: inputs/register.json, path: owned_pct}
+  - {name: "Use cases at production gate", dimension: Strategy, evidence: inputs/portfolio.json, path: at_gate}
+  - {name: "Hours saved per user per week", dimension: Value, evidence: "", path: hours}   # from a vendor survey
+proposals:
+  - {name: "Supplier query agent: second business unit", value: 4, complexity: 2, authority_level: L2, regulated: false}
+  - {name: "Hardship pre-assessment drafts", value: 4, complexity: 4, authority_level: L3, regulated: true}
+  - {name: "Board pack summariser", value: 2, complexity: 3}
+retire_review:
+  - {agent: "Expense Policy Checker", used_for_purpose: false, value_exceeds_run_cost: false, has_owner_and_sponsor: true, risk_unchanged: false}
+  - {agent: "AP Supplier Query Assistant", used_for_purpose: true, value_exceeds_run_cost: true, has_owner_and_sponsor: true, risk_unchanged: true}

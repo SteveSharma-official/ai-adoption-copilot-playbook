@@ -1,0 +1,4 @@
+tool,domain,status,owner
+Microsoft 365 Copilot,m365.cloud.microsoft,sanctioned,IT
+Copilot Studio,copilotstudio.microsoft.com,sanctioned,IT
+Microsoft Foundry,ai.azure.com,sanctioned,Data Platform

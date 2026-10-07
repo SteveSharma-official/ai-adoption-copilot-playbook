@@ -1,0 +1,58 @@
+[
+  {
+    "agent_id": "ag-personal-notes",
+    "name": "Personal Notes Helper",
+    "environment": "personal",
+    "audience_users": 1,
+    "rung": 1,
+    "tools": [
+      {
+        "name": "onenote.read",
+        "action": "read"
+      }
+    ]
+  },
+  {
+    "agent_id": "ag-ap-query",
+    "name": "AP Supplier Query Assistant",
+    "environment": "prod",
+    "audience_users": 9,
+    "rung": 2,
+    "tools": [
+      {
+        "name": "kb.search",
+        "action": "read"
+      },
+      {
+        "name": "erp.invoice_status",
+        "action": "read"
+      }
+    ]
+  },
+  {
+    "agent_id": "ag-cs-refund",
+    "name": "Refund Request Drafter",
+    "environment": "prod",
+    "audience_users": 30,
+    "rung": 3,
+    "tools": [
+      {
+        "name": "pos.refund_request",
+        "action": "write"
+      }
+    ]
+  },
+  {
+    "agent_id": "ag-foundry-triage",
+    "name": "Service Ticket Triage",
+    "environment": "prod",
+    "audience_users": 400,
+    "rung": 4,
+    "tools": [
+      {
+        "name": "itsm.ticket_tag",
+        "action": "write"
+      }
+    ]
+  }
+]

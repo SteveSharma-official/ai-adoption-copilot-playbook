@@ -1,0 +1,32 @@
+user_id,upn,display_name,department,role,status,leave_date,copilot_wave
+u001,ava.nguyen@harbourline.example,Ava Nguyen,Finance,Manager,active,,pilot
+u002,noah.singh@harbourline.example,Noah Singh,Finance,Staff,active,,pilot
+u003,mia.patel@harbourline.example,Mia Patel,Finance,Staff,leaver,2026-09-30,pilot
+u004,leo.kelly@harbourline.example,Leo Kelly,Finance,Staff,active,,pilot
+u005,isla.wilson@harbourline.example,Isla Wilson,Finance,Staff,active,,pilot
+u006,arlo.ryan@harbourline.example,Arlo Ryan,Finance,Staff,active,,pilot
+u007,zara.chen@harbourline.example,Zara Chen,HR,Manager,active,,wave2
+u008,eli.smith@harbourline.example,Eli Smith,HR,Staff,active,,wave2
+u009,ruby.martin@harbourline.example,Ruby Martin,HR,Staff,active,,wave2
+u010,hugo.brown@harbourline.example,Hugo Brown,HR,Staff,active,,wave2
+u011,ivy.walker@harbourline.example,Ivy Walker,Legal,Manager,active,,wave2
+u012,theo.taylor@harbourline.example,Theo Taylor,Legal,Staff,active,,wave2
+u013,maya.nguyen@harbourline.example,Maya Nguyen,Legal,Staff,active,,wave2
+u014,jack.singh@harbourline.example,Jack Singh,Operations,Manager,leaver,2026-08-29,wave2
+u015,lena.patel@harbourline.example,Lena Patel,Operations,Staff,active,,wave2
+u016,omar.kelly@harbourline.example,Omar Kelly,Operations,Staff,active,,wave2
+u017,priya.wilson@harbourline.example,Priya Wilson,Operations,Staff,active,,wave2
+u018,sam.ryan@harbourline.example,Sam Ryan,Operations,Staff,active,,wave2
+u019,tara.chen@harbourline.example,Tara Chen,Operations,Staff,active,,wave2
+u020,wei.smith@harbourline.example,Wei Smith,Customer Service,Manager,active,,pilot
+u021,yusuf.martin@harbourline.example,Yusuf Martin,Customer Service,Staff,active,,pilot
+u022,chloe.brown@harbourline.example,Chloe Brown,Customer Service,Staff,active,,pilot
+u023,dev.walker@harbourline.example,Dev Walker,Customer Service,Staff,active,,pilot
+u024,erin.taylor@harbourline.example,Erin Taylor,Customer Service,Staff,active,,pilot
+u025,felix.nguyen@harbourline.example,Felix Nguyen,Customer Service,Staff,active,,pilot
+u026,grace.singh@harbourline.example,Grace Singh,Executive,Manager,active,,none
+u027,hamish.patel@harbourline.example,Hamish Patel,Executive,Staff,active,,none
+u028,indira.kelly@harbourline.example,Indira Kelly,IT,Manager,active,,none
+u029,jonah.wilson@harbourline.example,Jonah Wilson,IT,Staff,active,,none
+u030,kira.ryan@harbourline.example,Kira Ryan,IT,Staff,active,,none
+g001,guest.partner_gmail.com#EXT#@harbourline.example,External Partner (guest),External,Guest,active,,none

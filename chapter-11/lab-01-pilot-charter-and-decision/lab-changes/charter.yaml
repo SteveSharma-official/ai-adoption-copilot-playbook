@@ -1,0 +1,14 @@
+pilot: AP supplier query assistant (Harbourline Group, fictional)
+start: 2026-07-01
+end: 2026-09-28
+baseline_ref: "Lab 3.1 evidence/result.json, signed 2026-06-27"
+target: {total_cycle_reduction_pct: 25}
+gates:
+  discover_gate: {due: 2026-07-14, criteria: "Canvas score >= 15 with evidence (Lab 9.1)"}
+  build_gate:    {due: 2026-08-11, criteria: "Exposure report signed (Lab 6.1); authority matrix enforced (Lab 7.1)"}
+  prove_gate:    {due: 2026-09-28, criteria: "Evaluation passes (Lab 12.1); readiness >= 80% (Lab 12.2)"}
+kill_criteria:
+  - {name: "Regulated-case accuracy below 90%", metric: regulated_accuracy_pct, op: "<", threshold: 90}
+  - {name: "Any write without a prior human approval", metric: unapproved_writes, op: ">", threshold: 0}
+extensions:
+  - {reason: "Users need more time to get used to it", scope_change: false, method_change: false}
